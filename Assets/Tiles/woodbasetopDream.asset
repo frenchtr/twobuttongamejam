@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: woodbasetopDream
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 21300000, guid: 036ece357219b0340acdd3cbe539ac05, type: 3}
-  m_Color: {r: 0.4996209, g: 0.246707, b: 0.5283019, a: 1}
+  m_Color: {r: 0.4996209, g: 0.246707, b: 0.5283019, a: 0.5372549}
   m_Transform:
     e00: 1
     e01: 0
