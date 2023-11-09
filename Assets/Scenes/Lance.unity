@@ -138,7 +138,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3847711830284955225, guid: 703c8a3d2cede3f40835cc2319cdfe8f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.5577688
+      value: -1.5542727
       objectReference: {fileID: 0}
     - target: {fileID: 3847711830284955225, guid: 703c8a3d2cede3f40835cc2319cdfe8f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -373,7 +373,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1115369103
 Transform:
   m_ObjectHideFlags: 0
@@ -409,7 +409,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 1278889d04ce03e439ed2c880d05cf5e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3478,7 +3478,45 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths: []
+  m_ColliderPaths:
+  - m_Collider: {fileID: 1115369106}
+    m_ColliderPaths:
+    - - X: 180000000
+        Y: 30000000
+      - X: 140000000
+        Y: 30000000
+      - X: 140000000
+        Y: 20000000
+      - X: 180000000
+        Y: 20000000
+    - - X: 130000000
+        Y: 10000000
+      - X: 90000000
+        Y: 10000000
+      - X: 90000000
+        Y: 0
+      - X: 130000000
+        Y: 0
+    - - X: 300000000
+        Y: -20000000
+      - X: 1570000000
+        Y: -20000000
+      - X: 1570000000
+        Y: -10000000
+      - X: 50000000
+        Y: -10000000
+      - X: 50000000
+        Y: -50000000
+      - X: 300000000
+        Y: -50000000
+    - - X: 20000000
+        Y: -10000000
+      - X: -110000000
+        Y: -10000000
+      - X: -110000000
+        Y: -50000000
+      - X: 20000000
+        Y: -50000000
   m_CompositePaths:
     m_Paths:
     - - {x: 17.999971, y: 2}
@@ -5277,7 +5315,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5542757132958281841, guid: 78702a39850ad784382b0ed72432c3ef, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.5577688
+      value: -1.5542727
       objectReference: {fileID: 0}
     - target: {fileID: 5542757132958281841, guid: 78702a39850ad784382b0ed72432c3ef, type: 3}
       propertyPath: m_LocalPosition.y
