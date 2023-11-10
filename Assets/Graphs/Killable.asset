@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Killable
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Killable","summary":"Indicates
+      that this object can be killed.","pan":{"x":107.5033,"y":285.0},"zoom":1.0,"elements":[{"kind":"Object","defaultValues":{"name":{"$content":"IsDead","$type":"System.String"},"object":null},"position":{"x":120.0,"y":172.0},"guid":"342da00b-58f5-4a62-8824-6dbcc3b79eb2","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"9"},{"type":"System.Boolean","value":{"$content":true,"$type":"System.Boolean"},"defaultValues":{},"position":{"x":-82.0,"y":306.0},"guid":"d74676fe-9691-4eb6-844b-c77c4009cfd8","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"11"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"Killed","$type":"System.String"}},"position":{"x":-118.0,"y":172.0},"guid":"5097731f-899a-4796-9a1b-5f138f8cd7c7","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"13"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"assign","guid":"f4ce44c5-2f2c-4b0a-aafa-756b9d5fdae4","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"output","destinationUnit":{"$ref":"9"},"destinationKey":"input","guid":"0fc43e9d-d56f-4910-8bf3-4bf3575b8785","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
