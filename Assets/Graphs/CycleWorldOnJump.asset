@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: CycleWorldOnJump
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"CycleWorldOnJump","summary":"Cycles
+      the world state (dream or mundane) when the player jumps.","pan":{"x":264.0,"y":130.0},"zoom":1.0,"elements":[{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"Jumped","$type":"System.String"}},"position":{"x":-67.0,"y":-19.0},"guid":"623187b7-e39a-4bf5-aa22-9639734996ed","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"9"},{"chainable":false,"parameterNames":[],"member":{"name":"Raise","parameterTypes":[],"targetType":"GameEvents.GameEvent","targetTypeName":"GameEvents.GameEvent","$version":"A"},"defaultValues":{"target":{"$content":0,"$type":"UnityEngine.Object"}},"position":{"x":506.0,"y":-15.0},"guid":"88af120a-60d6-45e1-b5e5-7945146f1600","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"11"},{"defaultValues":{},"position":{"x":251.0,"y":-14.0},"guid":"cc5e41aa-dd6a-4a3c-ab29-b3f74262cf4e","$version":"A","$type":"Unity.VisualScripting.If","$id":"15"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"IsGrounded","$type":"System.String"},"object":null},"position":{"x":-75.0,"y":155.0},"guid":"d21da1a0-d6fe-40f6-a7df-1eee2855154c","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"17"},{"sourceUnit":{"$ref":"15"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"18b9ff4f-c9ba-477f-92f1-6b66c74b4fb5","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"46700248-87a4-4a2f-86e7-ee09ab8dba2b","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"condition","guid":"038bda49-a70f-4a4a-875c-ae5c3bae60fc","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 58fe90f531f863d42b01f7c350082071, type: 2}

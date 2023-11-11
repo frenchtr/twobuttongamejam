@@ -239,6 +239,9 @@ GameObject:
   - component: {fileID: 3497406125984866969}
   - component: {fileID: 4643209134395976720}
   - component: {fileID: 733776519259944763}
+  - component: {fileID: 997992127880213015}
+  - component: {fileID: 6894347510153861728}
+  - component: {fileID: 4218257539863721035}
   m_Layer: 2
   m_Name: PlayerCharacter
   m_TagString: Untagged
@@ -477,6 +480,67 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 78fd05fb18e64b84d9202c7d2fd855a3, type: 2}
+--- !u!114 &997992127880213015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803549802370421348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe58df89b5b74a97a123b5ed2b70422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: c6e4efcdba972c64c917e8fc943820e3, type: 2}
+--- !u!114 &6894347510153861728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803549802370421348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d16094becf374600b1a25fefa78f759e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 58fe90f531f863d42b01f7c350082071, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 997992127880213015}
+        m_TargetAssemblyTypeName: Unity.VisualScripting.EventMachine`2[[Unity.VisualScripting.StateGraph,
+          Unity.VisualScripting.State
+        m_MethodName: TriggerUnityEvent
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: WorldCycled
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4218257539863721035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803549802370421348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 640509c8cb9af5f429ca57cb4001813a, type: 2}
 --- !u!1 &7283470719611653011
 GameObject:
   m_ObjectHideFlags: 0
